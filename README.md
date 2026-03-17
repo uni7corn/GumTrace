@@ -279,3 +279,6 @@ GumTrace 内置了对常见库函数参数的自动解析：
 - 跳过原子指令（LSE、独占加载/存储）以避免 Stalker 插桩导致的死锁
 - 使用 10MB 内存缓冲区减少文件 I/O 次数，提升追踪性能
 - 污点分析工具采用零分配解析设计，可高效处理 GB 级日志文件
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/mSBgzOsNZyxhV8bvibzHsHAMzibWx5dIl4JI9CsLDF16wAuWbY2ibFbDiaq7iaJI8HpttD8HR9yl9Z1zYlmWpDNcNicC0ThPQ2ALPaV8kKza03Z5w/640?wx_fmt=jpeg&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=0)
+
