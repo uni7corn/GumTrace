@@ -97,7 +97,7 @@ void init(const char *module_names, char *trace_file_path, int thread_id, GUM_OP
 
     instance->_stalker = gum_stalker_new();
     gum_stalker_set_trust_threshold(instance->_stalker, 0);
-    gum_stalker_set_ratio(instance->_stalker, 1);
+    gum_stalker_set_ratio(instance->_stalker, 2);
     if (instance->options.mode == GUM_OPTIONS_MODE_STABLE) {
         gum_process_enumerate_ranges(GUM_PAGE_RW, on_range_found, nullptr);
 
