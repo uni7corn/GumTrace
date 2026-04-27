@@ -23,7 +23,7 @@
 #if PLATFORM_IOS
 
 #include "../libs/FridaGum-IOS-17.8.3.h"
-#include <Foundation.h>
+#include <Foundation/Foundation.h>
 #define LOGE(fmt, ...) NSLog(@"[ERROR] %s: " @fmt, LOG_TAG, ##__VA_ARGS__)
 
 #else
